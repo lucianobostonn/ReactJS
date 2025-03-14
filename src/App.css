@@ -89,6 +89,10 @@ div.task li button#text{
     border: none;
 }
 
+div.task li button#text:hover{
+    cursor: pointer;
+}
+
 div.task li button#botão{
     background-color: #3a5258;
     padding: 5px;

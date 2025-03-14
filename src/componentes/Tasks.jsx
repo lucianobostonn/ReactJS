@@ -1,4 +1,4 @@
-import { ChevronRightIcon, TrashIcon } from "lucide-react";
+import { CheckIcon, ChevronRightIcon, TrashIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom"
 
 function Tasks(proprio){
@@ -16,6 +16,7 @@ function Tasks(proprio){
             <li key={task.id}>
                 <button id="text" 
                 onClick={()=> proprio.onTaskClick(task.id)} style={{ textDecoration: task.isCompleted ? 'line-through' : 'none' }}>
+                    {task.isCompleted && <CheckIcon/>}
                 {task.title}
                 
                 </button>
