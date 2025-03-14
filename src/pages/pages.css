@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div#top{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div#top span{
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 50;
+}
+
+div#top span:hover{
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+h1{
+    text-align: center;
+}
+
+div#details{
+    background-color: #808080b0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div#details h2{
+    margin: 5px 0px;
+}
