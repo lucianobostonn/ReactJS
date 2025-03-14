@@ -38,6 +38,7 @@ div#details{
     background-color: #808080b0;
     padding: 10px;
     border-radius: 10px;
+    max-width: 500px;
 }
 
 div#details h2{
